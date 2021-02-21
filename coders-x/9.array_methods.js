@@ -4,8 +4,8 @@ var c = 7;
 
 //console.log(a.concat(b)); // ghép mảng
 
-// console.log(a.push(c)); // Thêm c vào cuối mảng a và trả về độ dài mảng sau khi thêm
-// console.log(a);
+a.push(c); // Thêm c vào cuối mảng a và trả về độ dài mảng sau khi thêm
+console.log(a);
 
 // console.log(a.pop()); // Cắt 1 ptu cuối mảng a và trả về phần tử cuối màng a trước khi cắt hay phẩn tử bị cắt
 // console.log(a);
@@ -26,5 +26,5 @@ var c = 7;
 //a.splice(2,0, 99);
 // a.splice(2,1, 99);
 // a.splice(2,2, 99);
-a.splice(2,1); // Xóa phần 1 phần tử ở 1 vị trí số 2
-console.log(a);
+// a.splice(2,1); // Xóa phần 1 phần tử ở 1 vị trí số 2
+// console.log(a);

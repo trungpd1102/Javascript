@@ -1,4 +1,4 @@
-// // array.map
+// // array.map // duyet cac pha tu trong mang
 // var numbers = [1 ,2, 3, 4, 7];
 
 // var squaredNumbers = numbers.map(function(x){
@@ -17,9 +17,11 @@ var rectangles = [
 
 
 var acreageRectangles = rectangles.map(function(obj){
+//    var result = 0;
     var acreage = obj.width * obj.height;
+//    result += acreage;
     var objResult = {'acreage': acreage};
     return  objResult
 });
 
-console.log(acreageRectangles);
+console.log('dien tich: ',acreageRectangles);
