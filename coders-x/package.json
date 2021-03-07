@@ -1,0 +1,14 @@
+{
+  "name": "coders-x",
+  "version": "1.0.0",
+  "description": "JavaScript Basic Course by CodersX in Youtube",
+  "main": "++--.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
