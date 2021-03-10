@@ -2,7 +2,7 @@ var fs = require('fs');
 
 function readFilePromise(path) {
     return new Promise(function (resolve, reject) {
-        fs.readFile(path, encodeing='utf-8', function(err, data) {
+        fs.readFile(path, encoding='utf-8', function(err, data) {
             if (err) reject(err);   //reject - err                              // remenber call reject and resolve
             else resolve(data);     //resolve - data
         });    
