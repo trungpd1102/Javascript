@@ -9,6 +9,7 @@
 
 
 // Bai tap:  Tính diện tích các hình chữ nhật đã cho
+
 var rectangles = [
     {width: 4, height: 10},
     {width: 47, height: 110},
