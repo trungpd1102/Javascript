@@ -45,3 +45,8 @@ function countFrom(i, n) {
 }
 
 countFrom(1, 10).then(() => console.log("Done"))
+
+var progressNumber = 0
+await setInterval( () => {
+
+} )
