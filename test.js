@@ -1,7 +1,17 @@
-function printThese(a, b, c){
-	console.log(a, "is stored in a");
-	console.log(b, "is stored in b");
-	console.log(c, "is stored in c");
-}
+const listItem = [
+    {
+        line: 'Line1',
+        process: ['Process1-1', 'Process1-2', 'Process1-3']
+    },
+    {
+        line: 'Line2',
+        process: ['Process2-1', 'Process2-2', 'Process2-3']
+    }
+]
 
-printThese(1)
+var result = listItem.map( (item, index) => {
+	console.log(item.line, index);
+	item.process.map( (processItem, index) => {
+		console.log(processItem, index);
+	})
+} )

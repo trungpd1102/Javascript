@@ -1,9 +1,11 @@
-var employees = [
-    {name: 'Trung', age: 26, salary:null},
-    {name: 'Ngoc', age: 28},
-    {name: 'Nguyet', age: 23},
-];
+var menu1 = {
+    line1: {
+        name: "Line1",
+        child: [
+            'process1',
+            'process2'
+        ]
+    }
+}
 
-
-employees[0].salary = 1000;
-console.log(employees);
+console.log(menu1.line1.child);
